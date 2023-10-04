@@ -1,0 +1,57 @@
+const LOGIN_ROUTE = "/login";
+const UPDATE_CHECK_IN_ROUTE = "/updateCheckIn";
+const GET_CHECK_IN_ROUTE = "/getCheckIn";
+
+const FAVORITE_ROUTE = "/favorite";
+const CREATE_BULK_FAVORITES_ROUTE = "/favorites";
+const GET_FAVORITES_ROUTE = "/favorites/:userId";
+
+const CATEGORY_ROUTE = "/category";
+const GET_CATEGORIES_ROUTE = "/categories";
+const GET_CATEGORY_AUDIO_ROUTE = "/category";
+
+const SUBCATEGORY_ROUTE = "/subcategory";
+const EDIT_SUBCATEGORY_ROUTE = "/subcategory/:id";
+
+const ADD_BULK_AUDIO_ROUTE = "/audios";
+const AUDIO_ROUTE = "/audio";
+const GET_AUDIO_BY_CATEGORY = "/audio/:categoryId";
+const UPDATE_AUDIO_ROUTE = "/audio/:id";
+
+const ADD_BULK_PLAYLISTS_ROUTE = "/playlists";
+const PLAYLIST_ROUTE = "/playlist";
+const PLAYLIST_AUDIO_ROUTE = "/playlist/:playlistId/audio";
+const DELETE_PLAYLIST_AUDIO_ROUTE = "/playlist/:playlistId/audio/:audioId";
+const GET_PLAYLIST_ROUTE = "/playlist/:userId";
+const DELETE_PLAYLIST_ROUTE = "/playlist/:playlistId";
+
+const NOTIFICATIONS_ROUTE = "/notification";
+const NOTIFICATIONS_MODAL_ROUTE = "/modals";
+const NOTIFICATION_UPDATE_ROUTE = "/modal/:id";
+
+module.exports = {
+  LOGIN_ROUTE,
+  UPDATE_CHECK_IN_ROUTE,
+  GET_CHECK_IN_ROUTE,
+  FAVORITE_ROUTE,
+  CREATE_BULK_FAVORITES_ROUTE,
+  GET_FAVORITES_ROUTE,
+  CATEGORY_ROUTE,
+  GET_CATEGORIES_ROUTE,
+  ADD_BULK_AUDIO_ROUTE,
+  AUDIO_ROUTE,
+  GET_CATEGORY_AUDIO_ROUTE,
+  PLAYLIST_ROUTE,
+  PLAYLIST_AUDIO_ROUTE,
+  GET_PLAYLIST_ROUTE,
+  DELETE_PLAYLIST_AUDIO_ROUTE,
+  DELETE_PLAYLIST_ROUTE,
+  ADD_BULK_PLAYLISTS_ROUTE,
+  NOTIFICATIONS_ROUTE,
+  GET_AUDIO_BY_CATEGORY,
+  SUBCATEGORY_ROUTE,
+  EDIT_SUBCATEGORY_ROUTE,
+  UPDATE_AUDIO_ROUTE,
+  NOTIFICATIONS_MODAL_ROUTE,
+  NOTIFICATION_UPDATE_ROUTE,
+};
